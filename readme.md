@@ -17,7 +17,7 @@ Parts 1 - 3.
 ### Part 1 - Set Up Your App
 
 - `npm init` - Hit enter a bunch of times to accept the defaults
-- `npm install express --save` and `npm install mustache-express` --save
+- `npm install express --save` and `npm install ejs` --save
 - Set up your file structure
     - Make the following directories:
         - `controllers`
@@ -40,16 +40,16 @@ You will have 1 model. It will handle the angry bird data. It should include the
 #### Views
 
 You should end up with 3 views.
-- `index.html` a home page with a link to `/angry-birds`
-- `angry-birds.html` This view should have each bird's name, ability, image, and group visible on the page, as well as a link to /angry-birds/BIRDS_ID. There should also be a link back to /.
-- `angry-bird.html` This should have the bird's name, ability, image, and group visible on the page, as well as links back to / and /angry-birds
+- `index.ejs` a home page with a link to `/angry-birds`
+- `angry-birds.ejs` This view should have each bird's name, ability, image, and group visible on the page, as well as a link to /angry-birds/BIRDS_ID. There should also be a link back to /.
+- `angry-bird.ejs` This should have the bird's name, ability, image, and group visible on the page, as well as links back to / and /angry-birds
 
 
 #### Controllers
 
 You will have 1 controller. It will handle all of the `/angry-birds` routes.
-- When you go to `/angry-birds/` it should get all of the angry birds from the model and render the `angry-birds.html` view.
-- When you go to `/angry-birds/:id` it should get that individual bird from the model and render the `angry-bird.html` view.
+- When you go to `/angry-birds/` it should get all of the angry birds from the model and render the `angry-birds.ejs` view.
+- When you go to `/angry-birds/:id` it should get that individual bird from the model and render the `angry-bird.ejs` view.
 
 ### Part 3 - Styling
 
@@ -74,6 +74,15 @@ Expand the filtering capabilities of the Angry Birds app
 - Edit the filter function to be able to handle any number of the parameters at a time
 - This should not look like a bunch of if conditions regarding the number of parameters, or which combination of parameters are chosen
 
-## Submission
+## 🚀 Completion looks like:
 
-Homework is due by **11:00 Tonight**! Remember to work with each other and go to TAs when you need it, but follow the [guidelines](https://git.generalassemb.ly/wdi-nyc-5-22/course-information/blob/master/how-to-queue-with-TAs.md) for queuing. Follow the normal [rules for homework submission](https://git.generalassemb.ly/wdi-nyc-5-22/course-information/blob/master/homework-policy.md), remember to include a link to your **repo**.
+- Parts 1-3;
+- Any errors have been recorded in `errors.md`†
+
+## 🚀 Homework Submission:
+
+Homework is due by **11:00 Sunday April 15th**! Remember to work with each other and go to TAs when you need it. 
+
+Completion, comfort, wins, losses, questions... you know the drill.
+
+Remember to include a link to your **repo**.

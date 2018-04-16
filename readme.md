@@ -60,7 +60,7 @@ You will have 1 controller. It will handle all of the `/angry-birds` routes.
     - Maybe some CSS Hover effects
     - [Gradients](http://www.colorzilla.com/gradient-editor/)? [Animated gradients](https://www.gradient-animator.com/)!?
 
-### Bonus - Filtering
+### Part 4 - Filtering
 
 Expand the filtering capabilities of the Angry Birds app
 
@@ -76,7 +76,7 @@ Expand the filtering capabilities of the Angry Birds app
 
 ## 🚀 Completion looks like:
 
-- Parts 1-3;
+- Parts 1-4;
 - Any errors have been recorded in `errors.md`†
 
 ## 🚀 Homework Submission:

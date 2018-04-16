@@ -81,7 +81,7 @@ Expand the filtering capabilities of the Angry Birds app
 
 ## 🚀 Homework Submission:
 
-Homework is due by **11:00 Sunday April 15th**! Remember to work with each other and go to TAs when you need it. 
+Homework is due by **11:00 Monday, April 16th**! Remember to work with each other and go to TAs when you need it. 
 
 Completion, comfort, wins, losses, questions... you know the drill.
 

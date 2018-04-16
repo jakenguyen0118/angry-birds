@@ -2,11 +2,11 @@
 
 ![angry birds](https://media.giphy.com/media/fKACOQcJ6LnTa/giphy.gif)
 
-Today we learned how to organize an Express app using MVC (**M**odel **C**ontroller **V**iews) format. Express has a lot of setup. It can become easy to get lost, especially once we start adding more controllers and models. Constructing everything in an organized way is **key** to keeping track of everything. Lets practice by creating an app from scratch!
+So far, we've learned how to organize an Express app using MVC (**M**odel **C**ontroller **V**iews) format. Express has a lot of setup. It can become easy to get lost, especially once we start adding more controllers and models. Constructing everything in an organized way is **key** to keeping track of everything. Lets practice by creating an app from scratch!
 
 ## Setup
 
-The only file that has been provided is the data. The rest is up to you to make!
+The only file that has been provided is the seed. The rest is up to you to make!
 
 ## Completion
 
@@ -24,12 +24,12 @@ Parts 1 - 4.
         - `models`
         - `public`
         - `views`
-    - Create your `index.js` file
-- Set up your `index.js` file. Require your packages, set up your app and view engine, and listen on your port. Look back at the planets example we did today as a reference for the syntax.
+    - Create your `server.js` file
+- Set up your `server.js` file. Require your packages, set up your app and view engine, and listen on your port. Look back at the previous examples (Quotes, Harry Potter, Flashcards) as a reference for the syntax.
 
 ### Part 2 - Functionality
 
-Below is a description of what your app should contain. Reference the planets lab we did in class to put all the parts together. Figure out your process for constructing your app. Some start with the routes, others start with the model. Do what makes sense to you.
+Below is a description of what your app should contain. Reference the quotes lab we did in class to put all the parts together. Figure out your process for constructing your app. Some start with the routes, others start with the model. Do what makes sense to you.
 
 #### Models
 
@@ -41,8 +41,8 @@ You will have 1 model. It will handle the angry bird data. It should include the
 
 You should end up with 3 views.
 - `index.ejs` a home page with a link to `/angry-birds`
-- `angry-birds.ejs` This view should have each bird's name, ability, image, and group visible on the page, as well as a link to /angry-birds/BIRDS_ID. There should also be a link back to /.
-- `angry-bird.ejs` This should have the bird's name, ability, image, and group visible on the page, as well as links back to / and /angry-birds
+- `angry-birds.ejs` This view should have each bird's name, ability, image, and group visible on the page, as well as a link to `/angry-birds/BIRDS_ID`. There should also be a link back to `/`.
+- `angry-bird.ejs` This should have the bird's name, ability, image, and group visible on the page, as well as links back to `/` and `/angry-birds`.
 
 
 #### Controllers
@@ -65,11 +65,11 @@ You will have 1 controller. It will handle all of the `/angry-birds` routes.
 Expand the filtering capabilities of the Angry Birds app
 
 - Look up how to use [query parameters](https://expressjs.com/en/api.html#req.query) in express.
-- Edit the /angry-birds route to handle query parameters of 'group', 'species', and 'feels'
+- Edit the `/angry-birds` route to handle query parameters of 'group', 'species', and 'feels'
 - Start with testing just one parameter, then increment to exactly two, and then all three
 - The page should render an angry bird that matches ALL the criteria of our query parameters - this is not about sorting them into any particular order
 
-### Super Bonus
+### Bonus
 
 - Edit the filter function to be able to handle any number of the parameters at a time
 - This should not look like a bunch of if conditions regarding the number of parameters, or which combination of parameters are chosen
@@ -77,12 +77,12 @@ Expand the filtering capabilities of the Angry Birds app
 ## 🚀 Completion looks like:
 
 - Parts 1-4;
-- Any errors have been recorded in `errors.md`†
+- Any errors have been recorded in `errors.md`
 
 ## 🚀 Homework Submission:
 
-Homework is due by **11:00 Monday, April 16th**! Remember to work with each other and go to TAs when you need it. 
+Homework is due by **11:00pm TONIGHT**! Remember to work with each other and go to TAs when you need it. 
 
-Completion, comfort, wins, losses, questions... you know the drill.
+Submission must include completion, comfort, wins, losses, questions... you know the drill.
 
 Remember to include a link to your **repo**.

@@ -50,8 +50,4 @@ You will have 1 controller. It will handle all of the `/angry-birds` routes.
 - When you go to `/angry-birds/:id` it should get that individual bird from the model and render the `angry-bird.ejs` view.
 
 
-## 🚀 Completion looks like:
-
-- Parts 1-2;
-- Any errors have been recorded in `errors.md`
 

@@ -2,7 +2,7 @@
 
 ![angry birds](https://media.giphy.com/media/fKACOQcJ6LnTa/giphy.gif)
 
-So far, we've learned how to organize an Express app using MVC (**M**odel **C**ontroller **V**iews) format. Express has a lot of setup. It can become easy to get lost, especially once we start adding more controllers and models. Constructing everything in an organized way is **key** to keeping track of everything. Lets practice by creating an app from scratch!
+So far, we've learned how to organize an Express app using MVC (**M**odel **C**ontroller) format along with **R**outes. Express has a lot of setup. It can become easy to get lost, especially once we start adding more controllers and models. Constructing everything in an organized way is **key** to keeping track of everything. Lets practice by creating an app from scratch!
 
 ## Setup
 

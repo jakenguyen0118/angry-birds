@@ -12,6 +12,8 @@ The only file that has been provided is the seed. The rest is up to you to make!
 
 Parts 1, 2.
 
+All routes have been tested using `Postman`
+
 ## Assignment
 
 ### Part 1 - Set Up Your App

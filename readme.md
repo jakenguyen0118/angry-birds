@@ -10,7 +10,7 @@ The only file that has been provided is the seed. The rest is up to you to make!
 
 ## Completion
 
-Parts 1 - 4.
+Parts 1, 2.
 
 ## Assignment
 

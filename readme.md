@@ -46,8 +46,8 @@ Your model will handle the angry bird data. It should include these functions:
 #### Controllers
 
 You will have 1 controller. It will handle all of the `/angry-birds` routes.
-- When you go to `/angry-birds/` it should get all of the angry birds from the model and render the `angry-birds.ejs` view.
-- When you go to `/angry-birds/:id` it should get that individual bird from the model and render the `angry-bird.ejs` view.
+- When you go to `/angry-birds/` it should get all of the angry birds from the model and return as json
+- When you go to `/angry-birds/:id` it should get that individual bird from the model and eturn as json
 
 
 

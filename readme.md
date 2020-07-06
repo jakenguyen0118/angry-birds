@@ -30,12 +30,6 @@ All routes have been tested using `Postman`
 
 Below is a description of what your app should contain.  Figure out your process for constructing your app. Some start with the routes, others start with the model. Do what makes sense to you.
 
-#### Routes
-
-You will have a routes file that will handle all routes for `/angry-birds`. It will handle all of the `/angry-birds` routes.
-- When you go to `/angry-birds/` it should get all of the angry birds from the model and render them in the browser.
-- When you go to `/angry-birds/:id` it should get that individual bird from the model and render them in the browser.
-
 #### Models
 
 Your model will handle the angry bird data. It should be an array of data. Don't forget to export this data!
@@ -45,6 +39,5 @@ Your model will handle the angry bird data. It should be an array of data. Don't
 You will have 1 controller. It will handle all of the `/angry-birds` routes.
 - When you go to `/angry-birds/` it should get all of the angry birds from the model and return as json
 - When you go to `/angry-birds/:id` it should get that individual bird from the model and return as json
-
 
 

@@ -21,11 +21,10 @@ All routes have been tested using `Postman`
 - Install and requuire any dependencies 
 - Set up your file structure
     - Make the following directories:
-        - `routes`
         - `controllers`
         - `models`
     - Create your `server.js` file
-- Set up your `server.js` file. Require your packages, set up your app and view engine, and listen on your port. 
+- Set up your `server.js` file. Require your packages, set up your app and listen on your port. 
 
 ### Part 2 - Functionality
 
@@ -34,20 +33,18 @@ Below is a description of what your app should contain.  Figure out your process
 #### Routes
 
 You will have a routes file that will handle all routes for `/angry-birds`. It will handle all of the `/angry-birds` routes.
-- When you go to `/angry-birds/` it should get all of the angry birds from the model and render the `angry-birds.ejs` view.
-- When you go to `/angry-birds/:id` it should get that individual bird from the model and render the `angry-bird.ejs` view.
+- When you go to `/angry-birds/` it should get all of the angry birds from the model and render them in the browser.
+- When you go to `/angry-birds/:id` it should get that individual bird from the model and render them in the browser.
 
 #### Models
 
-Your model will handle the angry bird data. It should include these functions:
-- `getAll()` - Will return all of the angry birds.
-- `getById(id)` - Will return the angry bird with the inputed id.
+Your model will handle the angry bird data. It should be an array of data. Don't forget to export this data!
 
 #### Controllers
 
 You will have 1 controller. It will handle all of the `/angry-birds` routes.
 - When you go to `/angry-birds/` it should get all of the angry birds from the model and return as json
-- When you go to `/angry-birds/:id` it should get that individual bird from the model and eturn as json
+- When you go to `/angry-birds/:id` it should get that individual bird from the model and return as json
 
 
 

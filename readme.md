@@ -40,4 +40,9 @@ You will have 1 controller. It will handle all of the `/angry-birds` routes.
 - When you go to `/angry-birds/` it should get all of the angry birds from the model and return as json
 - When you go to `/angry-birds/:id` it should get that individual bird from the model and return as json
 
+<hr>
 
+### Bonus
+- Can you create a POST Route?
+- Can you create an Update Route?
+- Can you create a Delete Route?

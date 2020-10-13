@@ -18,13 +18,15 @@ All routes have been tested using `Postman`
 
 ### Part 1 - Set Up Your App
 
-- Install and requuire any dependencies 
-- Set up your file structure
+- Install and require any and all dependencies 
+- Set up your file/folder structure
     - Make the following directories:
         - `controllers`
         - `models`
-    - Create your `server.js` file
-- Set up your `server.js` file. Require your packages, set up your app and listen on your port. 
+- Create and setup your `server.js` file
+- Create an initial default route
+
+Confirm that your server is working and able to respond to at least the default route: `localhost:3000`
 
 ### Part 2 - Functionality
 
@@ -32,7 +34,7 @@ Below is a description of what your app should contain.  Figure out your process
 
 #### Models
 
-Your model will handle the angry bird data. Move the It's an array of data that needs to be imported. 
+Your model will handle the angry bird data. Move the angry-birds.js file into the model folder.  This folder is just a temporary location for our data files but once we get to learning about Mongo/Mongoose it will contain much more detailed information that represents our data. 
 
 #### Controllers
 
@@ -46,7 +48,4 @@ You will have 1 controller which will handle all of the `/angry-birds` routes.
 | /angry-birds/:id      | PUT       | it should update the individual bird from the model and return as it json
 | /angry-birds/:id      | DELETE      | it should delete the individual bird from the model and return the entire list as json 
 
-<hr>
 
-### Bonus
-- Can you create a Delete Route?

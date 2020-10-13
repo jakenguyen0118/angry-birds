@@ -32,11 +32,11 @@ Below is a description of what your app should contain.  Figure out your process
 
 #### Models
 
-Your model will handle the angry bird data. It should be an array of data. Don't forget to export this data!
+Your model will handle the angry bird data. Move the It's an array of data that needs to be imported. 
 
 #### Controllers
 
-You will have 1 controller. It will handle all of the `/angry-birds` routes.
+You will have 1 controller which will handle all of the `/angry-birds` routes.
 
 | **URL** | **HTTP Verb** | Action |
 |------------|-------------|-------------|

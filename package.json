@@ -1,0 +1,25 @@
+{
+  "name": "express-node-MVC-angry-birds-exercise",
+  "version": "1.0.0",
+  "description": "![angry birds](https://media.giphy.com/media/fKACOQcJ6LnTa/giphy.gif)",
+  "main": "angry-birds-data.js",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "morgan": "^1.10.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://git.generalassemb.ly/jakenguyen/express-node-MVC-angry-birds-exercise.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

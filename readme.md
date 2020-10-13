@@ -37,12 +37,16 @@ Your model will handle the angry bird data. It should be an array of data. Don't
 #### Controllers
 
 You will have 1 controller. It will handle all of the `/angry-birds` routes.
-- When you go to `/angry-birds/` it should get all of the angry birds from the model and return as json
-- When you go to `/angry-birds/:id` it should get that individual bird from the model and return as json
+
+| **URL** | **HTTP Verb** | Action |
+|------------|-------------|-------------|
+| /angry-birds       | GET       |  it should get all of the angry birds from the model and return as json
+| /angry-birds       | POST       |  it should add a new bird to the model and return the entire list as json
+| /angry-birds/:id      | GET       | it should get that individual bird from the model and return as json
+| /angry-birds/:id      | PUT       | it should update the individual bird from the model and return as it json
+| /angry-birds/:id      | DELETE      | it should delete the individual bird from the model and return the entire list as json 
 
 <hr>
 
 ### Bonus
-- Can you create a POST Route?
-- Can you create an Update Route?
 - Can you create a Delete Route?
